@@ -2,9 +2,8 @@
   "name": "card-generator",
   "version": "1.0.0",
   "description": "Make card names from colours, places, character classes, animals etc",
-  "main": "src/start.js",
+  "main": "start.js",
   "dependencies": {
-    "card-namer": "file:../card-namer",
     "lodash": "^4.17.14",
     "node": "^12.6.0"
   },
@@ -15,7 +14,7 @@
   },
   "scripts": {
     "test": "jest",
-    "start": "node src/start.js"
+    "start": "node start.js"
   },
   "keywords": [
     "card",

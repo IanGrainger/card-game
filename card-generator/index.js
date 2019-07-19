@@ -1,19 +1,18 @@
 import _ from "lodash";
 import rarities from "./data/rarities";
 import abilities from "./data/abilities";
-import GetName from "card-namer";
+import GetName from "../card-namer/lib";
 
 for (var i = 0; i < 10; i++) GetRandomCard();
 
 function GetRandomCard() {
   const name = GetName();
-  console.log(name);
   const rarity = GetRarity();
   const cost = GetCost();
   const selectedAbilities = GetAbilities(cost, rarity);
   const [attack, health] = GetAttackAndHealth(cost, rarity, selectedAbilities);
   console.log(
-    `${cost} Mana ${rarity} ${attack}/${health} ${GetAbilitiesDescription(
+    `${name} - ${cost} Mana ${rarity} ${attack}/${health} ${GetAbilitiesDescription(
       selectedAbilities
     )}`
   );

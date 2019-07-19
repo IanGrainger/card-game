@@ -8,10 +8,6 @@ import creatures from "./data/creatures";
 import elements from "./data/elements";
 import weapons from "./data/weapons";
 
-for (var i = 0; i < 100; i++) {
-  console.log(GetName());
-}
-
 function GetName() {
   return GetNameArray().join(" ");
 }
@@ -45,4 +41,3 @@ function GetLastPart() {
 }
 
 export default GetName;
-//module.exports = { GetName: GetName };
