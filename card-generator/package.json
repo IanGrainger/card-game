@@ -1,0 +1,27 @@
+{
+  "name": "card-generator",
+  "version": "1.0.0",
+  "description": "Make card names from colours, places, character classes, animals etc",
+  "main": "src/start.js",
+  "dependencies": {
+    "card-namer": "file:../card-namer",
+    "lodash": "^4.17.14",
+    "node": "^12.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/register": "^7.4.4"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node src/start.js"
+  },
+  "keywords": [
+    "card",
+    "game",
+    "generator"
+  ],
+  "author": "Ian Grainger",
+  "license": "ISC"
+}

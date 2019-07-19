@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Shield",
+    "description": "Prevent all of first damage",
+    "cost": 1.5,
+    "targeted": false
+  },
+  {
+    "name": "Protect",
+    "description": "Must be attacked first",
+    "cost": 0.5,
+    "targeted": false
+  },
+  {
+    "name": "Bolster",
+    "description": "Give +1/+1 when played",
+    "cost": 1,
+    "targeted": true
+  },
+  {
+    "name": "Heal",
+    "description": "Heal 1 damage when played",
+    "cost": 0.5,
+    "targeted": true
+  },
+  {
+    "name": "Provoke",
+    "description": "Give +1 attack when played",
+    "cost": 0.5,
+    "targeted": true
+  },
+  {
+    "name": "Shot",
+    "description": "Deal 1 damage when played",
+    "cost": 1,
+    "targeted": true
+  },
+  {
+    "name": "Throw",
+    "description": "Deal 1 damage to a random enemy creature when played",
+    "cost": 0.5,
+    "targeted": false
+  },
+  {
+    "name": "Chaos",
+    "description": "Deal 1 damage to a random creature when played",
+    "cost": 0,
+    "targeted": false
+  },
+  {
+    "name": "Summon",
+    "description": "Summon a random 1 mana creature when played",
+    "cost": 2,
+    "targeted": false
+  }
+]
